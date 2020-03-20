@@ -1,7 +1,7 @@
 # Naaiactie
 
 Bijdrage leveren? Dat kan!
-* Maak een fork (of branch) en een pull request.
+* Maak een fork (of branch) en een pull request (zie lager)
 * Meld problemen via de [issues](https://github.com/MakeInBelgium/naaiactie/issues/new).
 * **NOOIT** rechtstreeks op `master` pushen.
 
@@ -60,6 +60,35 @@ scss --watch website/assets/css/style.scss website/assets/css/style.css
 ```
 scss --style compressed website/assets/css/style.scss website/assets/css/style.css
 ```
+
+## Hoe maak ik een pull request
+
+# Via een fork
+
+* Maak via github een fork van de [repo](https://github.com/MakeInBelgium/naaiactie).
+* 
+
+# Via een pull request op de originele repo
+
+* Maak eenmalig een clone van de repo op je lokale machine
+git clone git@github.com:MakeInBelgium/naaiactie.git # eenmalig
+
+* Zorg dat je vertrekt van een up-to-date versie vande master branch
+git checkout master; git pull origin master
+
+* Maak een branch vanaf master
+git checkout -b naam_van_je_branch
+
+* Zorg dat je na je wijzigingen de dingen commit en pusht naar je branch
+git add -A; git commit -m 'Dit is wat ik heb aangepast'
+git push origin naam_van_je_branch
+
+* Maak via de site 
+
+
+
+
+
 
 ## Deployment
 
